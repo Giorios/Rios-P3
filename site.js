@@ -41,7 +41,15 @@ const vue_app = Vue.createApp({
     },
       methods: {
             /* ADD FUNCTIONS/METHODS FOR STEP 7 HERE */
+            getMonthText(dateArray) {
+                  switch(movie.released){
+                        case 0:
+                        text = "October 14, 1994"
+                        break;
+                  }
+            }
       }
 })
+
 
 vue_app.mount("#vue_app")
