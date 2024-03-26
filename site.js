@@ -81,8 +81,9 @@ const vue_app = Vue.createApp({
                         break;
 
                   }
-
-                  return text//month word DAY, Year
+                  
+                  date = text + " " + dateArray[2] + ", " + dateArray[0];
+                  return date;
             }
       }
 })
