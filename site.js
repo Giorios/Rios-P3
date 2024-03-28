@@ -81,10 +81,13 @@ const vue_app = Vue.createApp({
                         break;
 
                   }
-                  
+
                   date = text + " " + dateArray[2] + ", " + dateArray[0];
                   return date;
-            }
+            },
+            like(index){
+                 onclick=like(index)++
+            },
       }
 })
 

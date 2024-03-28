@@ -48,7 +48,7 @@
 						<p class="websites">Websites:  <a :href="movie.imdb"> imdb </a> | <a :href="movie.website">website</a></p>
 
 			            <div class="social">
-			              <p class="likes"><i class="bi bi-hand-thumbs-up" aria-hidden="true"></i> {{ movie.likes }}</p>
+			              <p class="likes" v-for="(like, index) in movies" ><i class="bi bi-hand-thumbs-up" aria-hidden="true"></i> {{ movie.likes }}</p>
 			              <p class="dislikes"><i class="bi bi-hand-thumbs-down"></i> {{ movie.dislikes }} </p>
 			            </div>
 	            </div>
@@ -68,7 +68,7 @@
 
   	<!-- This load the Vue.js code -->
 	<script type="text/javascript" src="site.js"></script>
-
+	<script>getMonthText(dateArray)</script>
 
 </body>
 </html>
