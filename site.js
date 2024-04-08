@@ -85,10 +85,13 @@ const vue_app = Vue.createApp({
                   date = text + " " + dateArray[2] + ", " + dateArray[0];
                   return date;
             },
-            like(index){
-                 onclick=like(index)++
+            posterClick(index){
+                  this.posters++
+                  if(index < posters){ 
+                        return this.posters[0]
+                  }
             },
-      }
+      } 
 })
 
 
