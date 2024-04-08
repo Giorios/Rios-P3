@@ -87,8 +87,8 @@ const vue_app = Vue.createApp({
             },
             posterClick(index){
                   const movie = this.movies[index];
-                  const posterindex = movie.posters.length;
-                  movie.posterindex = (movie.posterindex + 1) % posterindex;
+                  const postersel = movie.posters.length;
+                  movie.posterindex = (movie.posterindex + 1) % postersel;
             },
       } 
 })
