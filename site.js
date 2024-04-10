@@ -90,6 +90,13 @@ const vue_app = Vue.createApp({
                   const postersel = movie.posters.length;
                   movie.posterindex = (movie.posterindex + 1) % postersel;
             },
+            timeText(minutes){
+                  let runTime = minutes / 60;
+                  hours = Math.trunc(runTime) + "h ";
+                  minute = minutes % 60 + "m";
+                  length = hours + minute
+                  return length
+            },
       } 
 })
 
