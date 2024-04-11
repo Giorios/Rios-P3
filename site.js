@@ -96,7 +96,7 @@ const vue_app = Vue.createApp({
                   minute = minutes % 60 + "m";
                   length = hours + minute
                   return length
-            },
+            }
       } 
 })
 
