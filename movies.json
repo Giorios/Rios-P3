@@ -68,5 +68,47 @@
             "likes": 812,
             "dislikes": 101,
             "posterindex": 0
+      },
+      {
+            "title": "Scott Pilgrim vs. the World",
+            "iscore": 7.6,
+            "rating": "PG-13",
+            "runtime": 112,
+            "released": [2010, 8, 13],
+            "country": "USA",
+            "posters": ["img/scottpilgrim.jpg"],
+            "imdb": "https://www.imdb.com/title/tt0446029/",
+            "website": "https://www.amazon.com/Scott-Pilgrim-World-Michael-Cera/dp/B00448SE4S",
+            "likes": 627,
+            "dislikes": 25,
+            "posterindex": 0
+      },
+      {
+            "title": "Fred: The Movie",
+            "iscore": 2.1,
+            "rating": "PG-13",
+            "runtime": 81,
+            "released": [2010, 9, 18],
+            "country": "USA",
+            "posters": ["img/fred.jpg"],
+            "imdb": "https://www.imdb.com/title/tt1595842/",
+            "website": "https://www.amazon.com/Fred-Movie-Lucas-Cruikshank/dp/B003XTUAN2",
+            "likes": 1059,
+            "dislikes": 842,
+            "posterindex": 0
+      },
+      {
+            "title": "Fantastic Mr. Fox",
+            "iscore": 7.9,
+            "rating": "PG",
+            "runtime": 87,
+            "released": [2009, 11, 13],
+            "country": "USA",
+            "posters": ["img/fmf.jpg"],
+            "imdb": "https://www.imdb.com/title/tt0432283/",
+            "website": "https://www.amazon.com/Fantastic-Mr-Fox-Bill-Murray/dp/B00378VGGO",
+            "likes": 1261,
+            "dislikes": 108,
+            "posterindex": 0
       }
 ]
